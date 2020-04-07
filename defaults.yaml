@@ -1,0 +1,10 @@
+---
+username: john
+password: cisco
+connection_options:
+    scrapli:
+        extras:
+          transport: ssh2
+          ssh_config_file: True
+          auth_strict_key: False
+          timeout_transport: 10
